@@ -52,8 +52,8 @@ h6 {
     font-weight: 400
 }
 
-.caption p {
-    margin-top: 10px;
+p.caption {
+    margin-top: 15px;
 }
 
 .wrapper {
