@@ -50,6 +50,10 @@ h6 {
     font-weight: 400
 }
 
+p.caption {
+    margin-top: 0;
+}
+
 .wrapper {
     max-width: 1140px;
     margin-right: auto;
