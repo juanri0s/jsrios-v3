@@ -244,7 +244,7 @@ body {
     position: relative;
     margin: auto;
     top: 50%;
-    max-width: 85%;
+    max-width: 32%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
