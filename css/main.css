@@ -52,6 +52,10 @@ h6 {
     font-weight: 400
 }
 
+.caption p {
+    margin-top: 10px;
+}
+
 .wrapper {
     max-width: 1140px;
     margin-right: auto;
@@ -93,17 +97,17 @@ body {
     }
 }
 
-.site-header {
+.header {
     min-height: 56px;
     position: relative;
     margin-top: 50px
 }
 
-.site-title {
+.title {
     font-size: 30px !important
 }
 
-.site-title:hover {
+.title:hover {
     opacity: .5;
 }
 
@@ -113,21 +117,21 @@ body {
     }
 }
 
-.site-nav {
+.nav {
     line-height: 56px;
     font-weight: 700
 }
 
 @media screen and (max-width: 600px) {
-    .site-nav {
+    .nav {
         top: 0;
         text-align: center
     }
-    .site-nav .trigger {
+    .nav .trigger {
         clear: both;
         display: none
     }
-    .site-nav:hover .trigger {
+    .nav:hover .trigger {
         display: block;
         padding-bottom: 5px
     }
@@ -171,21 +175,6 @@ body {
     font-size: 20px
 }
 
-.centered-subhead {
-    font-family: "europa", sans-serif;
-    font-weight: 700;
-    color: #403B57;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-left: 10px;
-    display: inline-block;
-    cursor: pointer
-}
-
-.centered-subhead:first-child {
-    margin: 0
-}
-
 .box {
     height: 401px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -196,12 +185,12 @@ body {
     opacity: 1;
 }
 
-.jetblue {
+.ups {
     overflow-y: hidden;
     background: #876c62;
 }
 
-.jetblue>img {
+.ups>img {
     display: block;
     max-width: 40%;
     margin: auto;
@@ -210,16 +199,16 @@ body {
     margin-top: 15%;
 }
 
-.jetblue:hover {
+.ups:hover {
     opacity: .6;
 }
 
-.way {
+.njit {
     background: #fff;
     overflow-y: hidden;
 }
 
-.way>img {
+.njit>img {
     display: block;
     max-width: 80%;
     margin: auto;
@@ -228,16 +217,16 @@ body {
     margin-top: 15%;
 }
 
-.way:hover {
+.njit:hover {
     opacity: .5;
 }
 
-.illustration {
+.adamlouis {
     background: #b24ac4;
     overflow-y: hidden;
 }
 
-.illustration>img {
+.adamlouis>img {
     position: relative;
     margin: auto;
     top: 50%;
@@ -248,7 +237,7 @@ body {
     display: block;
 }
 
-.illustration:hover {
+.adamlouis:hover {
     opacity: .6;
 }
 
@@ -279,7 +268,7 @@ footer.site-footer p {
 }
 
 .menu-link,
-.site-title {
+.title {
     margin-right: 20px;
     color: #000;
     text-decoration: none;
