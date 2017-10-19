@@ -235,6 +235,46 @@ body {
     opacity: .6;
 }
 
+.design1 {
+    background: #EF5350;
+    overflow-y: hidden;
+}
+
+.design1>img {
+    position: relative;
+    margin: auto;
+    top: 50%;
+    max-width: 85%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+}
+
+.design1:hover {
+    opacity: .6;
+}
+
+.design2 {
+    background: #5CE69C;
+    overflow-y: hidden;
+}
+
+.design2>img {
+    position: relative;
+    margin: auto;
+    top: 50%;
+    max-width: 85%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+}
+
+.design2:hover {
+    opacity: .6;
+}
+
 @media screen and (max-width: 600px) {
     .photo {
         height: 100%
