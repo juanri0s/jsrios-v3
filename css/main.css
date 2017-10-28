@@ -275,6 +275,25 @@ body {
     opacity: .6;
 }
 
+.development1 {
+    overflow-y: hidden;
+}
+
+.development1>img {
+    position: relative;
+    margin: auto;
+    top: 50%;
+    max-width: 90%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+}
+
+.development1:hover {
+    opacity: .6;
+}
+
 @media screen and (max-width: 600px) {
     .photo {
         height: 100%
