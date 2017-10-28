@@ -305,37 +305,18 @@ footer.site-footer p {
 }
 
 .writing_post {
-    font-size: 30px !important;
+    font-size: 30px;
+    color: #000;
 }
 
 .writing_post:hover {
     opacity: .5;
 }
 
-
-/* unvisited link */
-
-a.writing_post:link {
-    color: red;
+writing_post:link {
+    color: #000;
 }
 
-
-/* visited link */
-
-a.writing_post:visited {
-    color: green;
-}
-
-
-/* mouse over link */
-
-a.writing_post:hover {
-    color: hotpink;
-}
-
-
-/* selected link */
-
-a.writing_post:active {
-    color: blue;
+writing_post:visited {
+    color: #000;
 }
