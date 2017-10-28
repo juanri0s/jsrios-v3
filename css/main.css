@@ -304,99 +304,38 @@ footer.site-footer p {
     font-size: 13px;
 }
 
-
-/*
-  under line links based on http://www.misscarriemah.ca/ 
-  which is based on code by Matt Beaudry
-  https://codepen.io/mattbeaudry/pen/faKvy
-
-  inline link underline based on http://ericls.com/ */
-
-.inline-link {
-    color: #000;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
+.writing_post {
+    font-size: 30px !important;
 }
 
-.menu-link,
-.title {
-    margin-right: 20px;
-    color: #000;
-    text-decoration: none;
-}
-
-.menu-link:hover {
+.writing_post:hover {
     opacity: .5;
 }
 
-.inline-link:after {
-    background: rgba(30, 215, 96, .2);
+
+/* unvisited link */
+
+a.writing_post:link {
+    color: red;
 }
 
-.inline-link::after {
-    background: rgba(30, 215, 96, .20);
-    bottom: 1px;
-    content: "";
-    height: 7px;
-    left: 0;
-    position: absolute;
-    transition: 60ms;
-    width: 100%;
-    z-index: 10;
+
+/* visited link */
+
+a.writing_post:visited {
+    color: green;
 }
 
-a.inline-link {
-    color: inherit;
-    position: relative;
-    text-decoration: none;
-    transition: 80ms;
+
+/* mouse over link */
+
+a:hover {
+    color: hotpink;
 }
 
-a.inline-link:hover,
-a.inline-link:focus {
-    opacity: .5;
-}
 
-a.underline {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
+/* selected link */
 
-a.underline:hover,
-a.underline:active,
-a.underline:focus,
-a.underline:visited {
-    font-weight: 300;
-}
-
-a.underline::before {
-    content: " ";
-    border-bottom: solid 3px #1B9AB6;
-    display: block;
-    position: absolute;
-    bottom: -3px;
-    width: 0%;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-a.underline:hover::before,
-a.underline:active::before,
-a.underline:focus::before,
-a.underline:visited::before {
-    border-bottom: solid 3px #1B9AB6;
-    left: 0%;
-    width: 100%;
-}
-
-a.underline.underline::before {
-    left: 0%;
+a:active {
+    color: blue;
 }
