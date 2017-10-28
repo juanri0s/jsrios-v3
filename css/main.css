@@ -407,8 +407,6 @@ a.underline.underline::before {
     left: 0%;
 }
 
-
-/* 
 .writing_post {
     font-size: 30px;
     color: #000;
@@ -424,4 +422,4 @@ writing_post:link {
 
 writing_post:visited {
     color: #000;
-} */
+}
