@@ -329,13 +329,13 @@ a.writing_post:visited {
 
 /* mouse over link */
 
-a:hover {
+a.writing_post:hover {
     color: hotpink;
 }
 
 
 /* selected link */
 
-a:active {
+a.writing_post:active {
     color: blue;
 }
