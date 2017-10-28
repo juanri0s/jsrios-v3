@@ -47,7 +47,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 400
+    font-weight: 400;
+    color: #000;
 }
 
 .wrapper {
@@ -99,10 +100,15 @@ body {
 
 .title {
     font-size: 30px !important;
+    color: #000;
 }
 
 .title:hover {
     opacity: .5;
+}
+
+writing_post:visited {
+    color: #000;
 }
 
 @media screen and (max-width: 600px) {
